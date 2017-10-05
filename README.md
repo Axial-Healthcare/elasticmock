@@ -4,7 +4,7 @@ Python Elasticsearch Mock for test purposes
 
 [![Build Status](https://travis-ci.org/vrcmarcos/elasticmock.svg?branch=master)](https://travis-ci.org/vrcmarcos/elasticmock) [![Coverage Status](https://coveralls.io/repos/github/vrcmarcos/elasticmock/badge.svg?branch=master)](https://coveralls.io/github/vrcmarcos/elasticmock?branch=master) [![PyPI version](https://badge.fury.io/py/ElasticMock.svg)](https://badge.fury.io/py/ElasticMock) [![Code Health](https://landscape.io/github/vrcmarcos/elasticmock/master/landscape.svg?style=flat)](https://landscape.io/github/vrcmarcos/elasticmock/master) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/vrcmarcos/elasticmock/master/LICENSE)
 
-## Instalation
+## Installation
 
 ```shell
 pip install ElasticMock
@@ -83,7 +83,19 @@ Example:
     }
     ```
 
+## Testing
+
+```bash
+python setup.py test
+```
+
 ## Changelog
+
+#### 1.3.2
+
+- **elasticmock**: Python 3 fixes (Thanks [@barseghyanartur](https://github.com/barseghyanartur))
+- **test**: Add information on testing (Thanks [@barseghyanartur](https://github.com/barseghyanartur))
+- **README.md**: Fixed typo (Thanks [@bowlofstew](https://github.com/bowlofstew))
 
 #### 1.3.1
 
